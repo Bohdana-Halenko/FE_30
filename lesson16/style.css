@@ -1,0 +1,38 @@
+.text{
+    font-size: 16px;
+    color: #212121;
+}
+/* .text::first-letter{
+    font-size: 50px;
+    font-weight: 700;
+    color: red;
+    font-style: italic;
+} */
+/* .text::selection{
+    background-color: coral;
+    color: rgb(32, 47, 5);
+} */
+/* .text::before{
+    content: '';
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    display: block;
+}
+.text::after{
+    content: '';
+    width: 100%;
+    height: 50px;
+    display: block;
+    background-color: fuchsia;
+} */
+.wrap{
+    width: 1200px;
+    height: 600px;
+    border: 1px solid red;
+    background-image: url("./5904059.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgb(255, 255, 154);
+    background-size: 100px;
+}
