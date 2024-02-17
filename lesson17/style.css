@@ -1,0 +1,68 @@
+/* .box{
+    width: 1000px;
+    height: 400px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/361/361678.png"), 
+    url("https://cdn-icons-png.flaticon.com/512/4206/4206277.png"),
+    url("https://cdn-icons-png.flaticon.com/512/814/814513.png"),
+    url("https://www.electronic-sirens.com/ru/wp-content/uploads/sites/8/2021/09/Yest-li-zvuk-v-kosmose-.jpg");
+    background-size: 80px, 100px, 150px, cover;
+    background-repeat: no-repeat;
+    background-position: right 100px top 120px, top 270px left 100px, center, center;
+}
+.wrap{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    margin-top: 50px;
+    background-image: linear-gradient(360deg, yellow, skyblue);
+}
+.wrap-two{
+     width: 150px;
+    height: 150px;
+    border: 1px solid;
+    margin-top: 50px;
+    background-image: linear-gradient(to left, yellow, skyblue);
+}
+.wrapper{
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    background-image: linear-gradient(45deg, red 25%, green 60%, skyblue 85%, yellow);
+}
+.box-box{
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    background-image: linear-gradient(to right, yellow 10%, skyblue 10%, skyblue 20%, yellow 20%, yellow 30%, skyblue 50%), url();
+} */
+/* .box{
+    width: 400px;
+    height: 400px;
+    background-image: radial-gradient(at bottom right, yellow 15%, rgb(255, 89, 0) );
+} */
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.item{
+    width: 300px;
+    height: 100px;
+    background-color: beige ;
+    margin: 30px;
+    padding: 40px;
+}
+.item:nth-child(1){
+    box-shadow: 0px 5px 10px -5px gray;
+}
+.item:nth-child(2){
+    box-shadow: 0px -5px 15px -5px gray;
+}
+.item:nth-child(3){
+    box-shadow: -10px 10px 10px -5px gray,
+    -20px 20px 10px -5px pink,
+    -30px 30px 10px -5px yellow;
+}
+.item:nth-child(4){
+    box-shadow: inset 10px 0px 15px -5px gray;
+}
