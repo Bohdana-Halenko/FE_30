@@ -1,0 +1,39 @@
+/* img{
+    width: 100px;
+} */
+/* .wrap{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    background-image: url(./cat.svg);
+} */
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.item{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 187, 0);
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    fill: fuchsia;
+}
+.item:hover{
+    background-color: yellow;
+}
+/* .icon:hover{
+    fill: violet;
+} */
+.item:hover .icon{
+    fill: violet;
+}
