@@ -1,0 +1,45 @@
+/* .box{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(196, 148, 241);
+    border-radius: 20px;
+    /* transition-property: background-color;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+    transition-delay: 2000ms; */
+    /* transition: background-color 1000ms linear;
+}
+.box:hover{
+    background-color: skyblue;
+} */
+
+/* .wrap{
+    width: 200px;
+    height: 150px;
+    background-color: pink;
+    margin-top: 100px;
+    border-radius: 20px;
+    transition-property: background-color, transform;
+    transition-duration: 2000ms;
+    transition-timing-function: ease;
+    
+
+}
+.wrap:hover{
+    background-color: rgb(196, 148, 241);
+    transform: translate(50px, -50px);
+} */
+
+
+.box{
+    width: 200px; 
+    height: 200px;
+    border-radius: 20px;
+    background-color: red;
+    margin: 100px;
+    transition-property: transform;
+    transition-duration: 5000ms;
+}
+.box:hover{
+    transform: skew(30deg);
+}
