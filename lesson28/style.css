@@ -35,11 +35,14 @@
     width: 200px; 
     height: 200px;
     border-radius: 20px;
-    background-color: red;
+    background-color: rgb(216, 171, 240);
     margin: 100px;
-    transition-property: transform;
-    transition-duration: 5000ms;
+    transition-property: background-color, transform;
+    transition-duration: 3000ms;
+    transition-timing-function: ease;
+    /* transition-delay: 5s; */
 }
 .box:hover{
-    transform: skew(30deg);
+    background-color: skyblue;
+   transform: scale(1.2) skew(30deg);
 }
