@@ -1,0 +1,30 @@
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+}
+.box:hover{
+    animation-name: changeColor;
+    animation-duration: 3s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeColor{
+    0%{
+        background-color: teal;
+    }
+    30%{
+        background-color: yellow;
+    }
+    70%{
+        background-color: violet;
+    }
+    100%{
+        background-color: teal;
+    }
+}
