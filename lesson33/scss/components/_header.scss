@@ -1,0 +1,82 @@
+// .button,
+// .button-one,
+// .button-two{
+//     padding: 15px 30px;
+//     border-radius: 20px;
+//     border: none;
+//     font-size: 18px;
+//     font-weight: 700;
+//     color: black;
+//     cursor: pointer;
+// }
+// .button-one{
+//     background-color: green;
+// }
+// .button-two{
+//     background-color: red;
+// }
+
+
+// %button{
+//     padding: 15px 30px;
+//     border-radius: 20px;
+//     border: none;
+//     font-size: 18px;
+//     font-weight: 700;
+//     color: black;
+//     cursor: pointer;
+// }
+// .button-one{
+//     @extend %button;
+//     background-color: green;
+// }
+// .button-two{
+//     @extend %button;
+//     background-color: red;  
+// }
+
+
+// %flex{
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+// .list{
+//     @extend %flex;
+// }
+
+// .list-two{
+//     @extend %flex;
+// }
+
+
+
+// @mixin flex(){
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: flex-start;
+// }
+
+// .box{
+//     @include flex();
+//     background-color: antiquewhite;
+//     padding: 30px;
+// }
+
+// .cat-icon{
+//     background-image: url(./images/cat.png);
+// }
+// .dog-icon{
+//     background-image: url(./images/dog.png);
+// }
+// .fish-icon{
+//     background-image: url(./images/fish.png);
+// }
+
+
+@each $animal in cat, dog, fish{
+    .#{$animal}-icon{
+        background-image: url(./images/#{$animal}.png);
+    }
+}
