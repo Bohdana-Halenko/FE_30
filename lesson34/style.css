@@ -1,0 +1,20 @@
+body{
+    background-color: skyblue;
+}
+@media screen and (min-width: 768px){
+    body{
+        background-color: yellowgreen;
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 900px){}
+
+
+@media (max-width: 600px), (min-width: 800px){
+
+}
+
+@media not screen and (max-width: 400px){
+
+}
