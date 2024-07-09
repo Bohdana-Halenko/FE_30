@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- <img src="./img/image.png" alt="" width="420" height="280">
+    <img src="./img/image@2x.png" alt="" width="420" height="280">
+    <img src="./img/image@3x.png" alt="" width="420" height="280"> -->
+
+    <div class="box"></div>
+
+    <!-- дескриптор x-->
+    <img src="" alt="">
+    <img srcset="./img/image.png 1x, ./img/image@2x.png 2x, ./img/image@3x.png 3x" 
+    src="./img/image.png"
+    alt="photo">
+
+        <!-- дескриптор w-->
+        <img srcset="./img/image.png 300w, ./img/image@2x.png 600w, ./img/image@3x.png 900w"
+        sizes="300px"
+        src="./img/image.png" alt="photo">
+
+
+        <picture>
+            <source srcset="./img/image.webp 1x, ./img/image@2x.webp 2x, ./img/image@3x.webp 3x" type="image/webp">
+            <source srcset="./img/image.png 1x, ./img/image@2x.png 2x, ./img/image@3x.png 3x" type="image/png">  
+            <img src="./img/image.png" alt="photo">
+        </picture>
+    
+</body>
+</html>
