@@ -1,0 +1,22 @@
+/* .about{
+
+}
+.about__title{
+
+}
+.about__list{
+
+} */
+
+
+.about{
+    background-color: skyblue;
+
+    &__title{
+
+    }
+
+    &__list{
+        
+    }
+}
