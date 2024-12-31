@@ -139,20 +139,85 @@
 // console.log(a);//5
 // console.log(b);//5
 
-// a = 10; 
+// a = 10;
 // console.log(a);//10
 // console.log(b);//5
 
 
 // const a = ['Bob'];
-// const b = a; 
+// const b = a;
 // console.log(a); //['Bob']
 // console.log(b); //['Bob']
 
-// a.push('Poly'); 
+// a.push('Poly');
 // console.log(a); //['Bob', 'Poly']
 // console.log(b); //['Bob', 'Poly']
 
-// b.push('Alex'); 
+// b.push('Alex');
 // console.log(a); //['Bob', 'Poly', 'Alex']
 // console.log(b); //['Bob', 'Poly', 'Alex']
+
+
+
+
+
+
+
+
+
+
+
+
+// 13
+// const hotel = {
+//     name: 'Hilton',
+//     stars: 5,
+//     capacity: 250,
+// };
+
+// const { name, stars, status } = hotel;
+// console.log(name, stars, status); //Hilton 5 undefined
+
+// const { name: hotelName, stars, status: hotelStatus = 'empty' } = hotel;
+// console.log(hotelName, stars, hotelStatus); //Hilton 5 empty
+
+// const { name, ...rest } = hotel;
+// console.log(name); // Hilton
+// console.log(rest); // {stars: 5, capacity: 250}
+
+
+// let options = {
+//     size: {
+//         width: 100,
+//         height: 200,
+//     },
+//     items: ['Cake', 'Donut'],
+//     extra: true,
+// };
+
+// const { size: { width, height }, items: [item1, item2] } = options;
+// console.log(width); //100
+// console.log(height); // 200
+// console.log(item1); // Cake
+// console.log(item2); // Donut
+
+const rgb = [200, 255, 100];
+// let red, green, blue;
+// [red, green, blue] = rgb;
+// const [red, green, blue, alfa = 0.3] = rgb;
+// console.log(`Red: ${red}, green: ${green}, blue: ${blue}, alfa: ${alfa}`); //Red: 200, green: 255, blue: 100, alfa: 0.3
+
+// const [red, ...colors] = rgb;
+// console.log(`Red: ${red}, colors: ${colors}`);  //Red: 200, colors: [255, 100]
+
+// const [, , blue] = rgb;
+// console.log(`Blue: ${blue}`); //Blue: 100
+
+
+// let arr = ['Bob', 'Nick'];
+// // let [firstName, secondName] = arr;
+// // console.log(firstName); // Bob
+// // console.log(secondName); // Nick
+
+// let firstName = arr[0];
+// console.log(firstName); // Bob
